@@ -189,7 +189,6 @@ a:hover {
   font-size: 50px;
   color: white;
   border: black solid 2px;
-  width: auto;
   background-color: rgb(50, 124, 173);
 }
 
@@ -207,29 +206,28 @@ a:hover {
 
 .deluxe-wash {
   flex: 1;
-  width: 45%;
-  margin: 0 15px;
+  margin: 10px 20px;
   align-items: center;
-  background-color: rgb(233, 223, 223);
+  background-color: rgba(245, 245, 245, 0.651);
+  border-radius: 30px;
 
 }
 
 .platinum-wash {
   flex: 1;
-  width: 45%;
   align-items: center;
-  margin: 0 15px;
-  background-color: rgb(233, 223, 223);
+  margin: 10px 20px;
+  background-color: rgba(245, 245, 245, 0.651);
+  border-radius: 30px;
 
 }
 
 .plus-wash {
   flex: 1;
-  width: 45%;
   align-items: center;
-  margin: 0 15px;
-  background-color: rgb(233, 223, 223);
-
+  margin: 10px 20px;
+  background-color: rgba(245, 245, 245, 0.651);
+  border-radius: 30px;
 }
 
 .washes-title {
@@ -254,6 +252,9 @@ a:hover {
 }
 
 .wash-items ul li {
-  padding: 10px;
-  text-decoration: none;
+  padding: 15px;
+}
+
+.wash-items ul {
+    text-decoration: none;
 }
