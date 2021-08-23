@@ -47,6 +47,7 @@ a:hover {
   height: 100vh;
 }
 
+
 .container {
   display: flex;
   flex-direction: column;
@@ -253,8 +254,48 @@ a:hover {
 
 .wash-items ul li {
   padding: 15px;
+  list-style: none;
 }
 
-.wash-items ul {
+/* Contact Us */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.contact-us {
+    font-size: 35px;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.contact-child {
+    margin: 15px 20px;
+    height: auto;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    flex: 1;
+    background-color: rgb(241, 237, 237);
+}
+
+.contact-child a {
     text-decoration: none;
 }
+
+/* Contact Us End */
