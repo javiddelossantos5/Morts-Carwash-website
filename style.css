@@ -294,8 +294,13 @@ a:hover {
     background-color: rgb(241, 237, 237);
 }
 
-.contact-child a {
+.contact-child a, h4 {
     text-decoration: none;
+    text-align: center;
+}
+
+.contact-child h3 {
+    text-align: center;
 }
 
 /* Contact Us End */
